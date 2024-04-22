@@ -71,6 +71,8 @@ section h1{
 }
 
 .input{
+    font-size: 25px;
+    padding: 5px;
     width: 100%;
     background-color: #F2F2F2;
     height: 40px;
@@ -79,6 +81,8 @@ section h1{
 }
 
 .cordenadas{
+    font-size: 25px;
+    padding: 5px;
     display: inline;
     background-color: #F2F2F2;
     height: 40px;
