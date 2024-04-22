@@ -28,10 +28,12 @@
 
 #endereco{
     text-align: end;
+    cursor: pointer;
 }
 
 #tempo{
     text-align: center;
+    cursor: pointer;
 }
 
 #topItens{
@@ -86,7 +88,7 @@ section h1{
     display: inline;
     background-color: #F2F2F2;
     height: 40px;
-    width: 48%;
+    width: 47%;
     margin-top: 10px;
     border-radius: 10px;
 
@@ -103,6 +105,7 @@ button{
     height: 40px;
     border-radius: 10px;
     font-size: 25px;
+    cursor: pointer;
     
 }
 
