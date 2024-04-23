@@ -217,6 +217,16 @@ button{
     background-color: rgb(255, 255, 255);
 }
 
+#resposta{
+    border: 1px solid #0C70F2;
+    width: 800px;
+    height: 50px;
+    border-radius: 20px;
+    color: black;
+    text-align: center;
+
+}
+
 #footer{
     display: flex;
     height: 90px;
