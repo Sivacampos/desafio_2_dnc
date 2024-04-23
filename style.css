@@ -73,7 +73,7 @@ section h1{
 }
 
 .input{
-    font-size: 25px;
+    font-size: 20px;
     padding: 5px;
     width: 100%;
     background-color: #F2F2F2;
@@ -164,7 +164,7 @@ button{
 }
 
 .inputCepResult input{
-    font-size: 25px;
+    font-size: 18px;
     text-align: center;
     height: 40px;
     width: 30%;

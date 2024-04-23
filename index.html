@@ -46,17 +46,17 @@
             <label for="">E-mail:</label>
             <input type="email" class="input"><br>
             <label for="">Digite o CEP:</label>
-            <input type="number" class="input"><br>
+            <input type="text" class="input" id="cep"><br>
             <div id="cordenadas">
                 <label for="">Digite a latitude e longitude para saber a previsão:</label>
                 <div class="inputCord">
-                    <input type="text" class="cordenadas">
-                    <input type="text" class="cordenadas">  
+                    <input type="text" id="latitude" class="cordenadas">
+                    <input type="text" id="longitude" class="cordenadas">  
                 </div>
                 
             </div>
             
-            <button> Acessar</button>
+            <button type="button" onclick="getAddressByCep(); getPrevisao()">Acessar</button>
         </form>
         
         <div class="cep">
@@ -77,9 +77,9 @@
                 </p>
             </div>
             <div class="inputCepResult">
-                <input type="text" name="logradouro" readonly>
-                <input type="text" name="bairro" readonly>
-                <input type="text" name="uf" readonly>
+                <input type="text" name="logradouro" id="logradouro" readonly>
+                <input type="text" name="bairro" id="bairro" readonly>
+                <input type="text" name="uf" id="uf" readonly>
             </div>
         </div>
 
@@ -90,7 +90,7 @@
 
         <div class="tempoResult">
             <div class="inputTempoResult">
-                <input type="text" name="tempo" readonly>
+                <input type="text" id="resposta" name="tempo" readonly>
             </div>
         </div>
     </section>
@@ -104,7 +104,7 @@
     </footer>
 
     
-        
+<script src="script.js"></script>        
        
    
 
