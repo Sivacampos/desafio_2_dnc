@@ -189,6 +189,10 @@ button{
     margin-left: 15px;
 }
 
+#topItens img{
+    margin-right: 30px;
+}
+
 .tempoResult{
     margin-bottom: 150px;
     margin-top: 10px;    
@@ -218,12 +222,15 @@ button{
 }
 
 #resposta{
+    display: flex;
+    font-size: 30px;
     border: 1px solid #0C70F2;
     width: 800px;
     height: 50px;
     border-radius: 20px;
     color: black;
-    text-align: center;
+    justify-content: center;
+    align-items: center;
 
 }
 
